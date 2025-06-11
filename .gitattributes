@@ -1,0 +1,16 @@
+# Frontend
+frontend/**/*.ts linguist-language=TypeScript
+frontend/**/*.tsx linguist-language=TypeScript
+frontend/**/*.js linguist-language=JavaScript
+frontend/**/*.jsx linguist-language=JavaScript
+
+# Backend
+demo/**/*.java linguist-language=Java
+demo/**/*.xml linguist-language=XML
+demo/**/*.properties linguist-language=Properties
+
+# Exclude build directories
+demo/target/** linguist-vendored
+frontend/node_modules/** linguist-vendored
+frontend/build/** linguist-vendored
+frontend/dist/** linguist-vendored 
